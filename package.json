@@ -1,7 +1,7 @@
 {
   "name": "goelz-motoren-cms",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -11,20 +11,21 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "<0.20.0",
+    "sqlite3": "latest",
     "strapi": "3.1.5",
     "strapi-admin": "3.1.5",
-    "strapi-utils": "3.1.5",
-    "strapi-plugin-content-type-builder": "3.1.5",
-    "strapi-plugin-content-manager": "3.1.5",
-    "strapi-plugin-users-permissions": "3.1.5",
-    "strapi-plugin-email": "3.1.5",
-    "strapi-plugin-upload": "3.1.5",
     "strapi-connector-bookshelf": "3.1.5",
-    "knex": "<0.20.0",
-    "sqlite3": "latest"
+    "strapi-plugin-content-manager": "3.1.5",
+    "strapi-plugin-content-type-builder": "3.1.5",
+    "strapi-plugin-email": "3.1.5",
+    "strapi-plugin-graphql": "3.1.5",
+    "strapi-plugin-upload": "3.1.5",
+    "strapi-plugin-users-permissions": "3.1.5",
+    "strapi-utils": "3.1.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Felix Koschmidder <felix.koschi@gmail.com>"
   },
   "strapi": {
     "uuid": "8c8f710a-176d-4096-ac5d-b8d7843fc8bc"
